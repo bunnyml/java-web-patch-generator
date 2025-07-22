@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Git变更文件补丁包生成脚本 (Mac优化版本)
-# 使用方法: ./generate_patch.sh 2025-02-01
+# 使用方法: 
+# 1 chmod +x generate_patch.sh
+# 2 ./generate_patch.sh 2025-02-01
 
 # Mac系统优化设置
 export COPYFILE_DISABLE=1  # 禁用Mac的._文件生成
